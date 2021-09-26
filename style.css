@@ -1,0 +1,57 @@
+.bg-img {
+    /* The image used */
+    background-image: url("homepage.jpg");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+
+  .navbar a{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 80px;
+    left: 200px;
+    font-size: 100px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.bottomleft2 {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.iconCss {
+    float: right;
+    position: relative;
+    margin-right: 50px;
+    top: 80px;
+}
+
+.footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 85px;
+    background : whitesmoke;
+}
+
+main {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    width:100%;
+}
