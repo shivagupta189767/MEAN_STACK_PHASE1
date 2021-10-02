@@ -33,12 +33,6 @@
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive;
 }
-.iconCss {
-    float: right;
-    position: relative;
-    margin-right: 50px;
-    top: 80px;
-}
 
 .footer{
     position: fixed;
@@ -46,12 +40,7 @@
     bottom: 0;
     width: 100%;
     /* Height of the footer*/ 
-    height: 70px;
+    height: 56px;
     background : whitesmoke;
 }
 
-main {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    width:100%;
-}
